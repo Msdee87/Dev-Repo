@@ -3,12 +3,6 @@ pipeline {
     agent any
 
     stages {
-
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/Msdee87/Dev-Repo.git'
-            }
-        }
         
         stage("build") {
 
